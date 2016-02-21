@@ -1,3 +1,53 @@
 @import "chico.min.css";
 
-body {background:red;}
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+
+#contenedor {
+
+	padding: 0;
+	width: 600px;
+	margin: 0 auto;
+	border: 2px solid black;
+
+	section.producto{
+		margin: 15px;
+
+		header {
+			text-align: left;
+			color: black;
+			margin-bottom: 25px;
+			h1{
+				text-transform: capitalize;
+				font-size: 31px;
+			}
+		}
+		aside{
+			height: 264px;
+			width: 46%;
+			border: 2px solid black;
+
+			figure{
+				img{ width: 100%; }
+			}
+		}
+		article{
+			width: 46%;
+			form{
+				fieldset{
+					select{  }
+					h2.ch-price::before{ content: "$ "; }
+					h2.ch-price{ font-size: 36px; }
+					p{ font-size: 10px; }
+				}
+				fieldset:last-of-type{
+					margin-top: 20px;
+				}
+			}
+		}
+		section.bottom { 
+
+		}
+	}
+}

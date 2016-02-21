@@ -10,60 +10,60 @@
 </head>
 <body>
 
-	<main id="contenedor" role="main">
-		<section class="ch-box-container">
-			<header><h1>ipad mini apple 16 gb wifi led 7.9</h1></header>
+	<main id="contenedor" role="main" itemscope itemtype="http://schema.org/Product">
+		<section class="ch-box-container" role="section">
+			<header><h1 itemprop="name" role="heading">ipad mini apple 16 gb wifi led 7.9</h1></header>
 			<aside class="left ch-box-lite">
 				<figure>
-					<img src="img/ipad.jpg" alt="Ipad Mini Apple 16 Gb Wifi Led 7.9" title="Ipad Mini Apple 16 Gb Wifi Led 7.9">
+					<img src="img/ipad.jpg" alt="Ipad Mini Apple 16 Gb Wifi Led 7.9" title="Ipad Mini Apple 16 Gb Wifi Led 7.9" itemprop="image" role="img">
 				</figure>
 			</aside>
-			<article class="right ch-box-container"> 
-				<form id="carrito" method="" action="">
+			<article class="right ch-box-container" role="article"> 
+				<form id="carrito" method="" action="" itemprop="offers" itemscope itemtype="http://schema.org/Offer" role="contentinfo">
 					<fieldset>
-						<header><h2 class="ch-price">4799<sup>99</sup></h2></header>
+						<header><h2 class="ch-price" role="heading"><span itemprop="priceCurrency" content="ARS">$</span><span itemprop="price" content="4799.99">4799<sup>99</sup></span></h2></header>
 					</fieldset>
 					<fieldset>
 						<label for="SelCant">Quantity</label>
-						<select name="SelCant" id="SelCant" class="ch-dropdown-trigger">
-							<option value="1" default>1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
+						<select name="SelCant" id="SelCant" class="ch-dropdown-trigger" itemprop="availability" href="http://schema.org/InStock">
+							<option value="1" aria-setsize="1" aria-posinset="1" default>1</option>
+							<option value="2" aria-setsize="2" aria-posinset="2">2</option>
+							<option value="3" aria-setsize="3" aria-posinset="3">3</option>
+							<option value="4" aria-setsize="4" aria-posinset="4">4</option>
 						</select>
 					</fieldset>
 					<fieldset>
 						<label for="SelPay">Payments</label>
 						<select name="SelPay" id="SelPay" class="ch-dropdown-trigger">
-							<option value="1" default>1</option>
-							<option value="3">3</option>
-							<option value="6">6</option>
-							<option value="12">12</option>
+							<option value="1" aria-setsize="4" aria-posinset="1" default>1</option>
+							<option value="3" aria-setsize="4" aria-posinset="2">3</option>
+							<option value="6" aria-setsize="4" aria-posinset="3">6</option>
+							<option value="12" aria-setsize="4" aria-posinset="4">12</option>
 						</select>
 					</fieldset>
 					<fieldset>
-						<button type="button" class="ch-btn ch-btn-big">Buy</button>
+						<button type="button" role="button" class="ch-btn ch-btn-big">Buy</button>
 						<p>MercadoLibre isn't the owner of this product.</p>
 					</fieldset>
 				</form>
 				<footer>
-					<header><h3>More products like this</h3></header>
-					<div class="ch-carousel">
-						<ul>
-			                <li><img src="img/1.jpg"></li>
-			                <li><img src="img/2.jpg"></li>
-			                <li><img src="img/3.jpg"></li>
-			                <li><img src="img/4.jpg"></li>
-			                <li><img src="img/5.jpg"></li>
-			                <li><img src="img/6.jpg"></li>
+					<header><h3 role="heading">More products like this</h3></header>
+					<div class="ch-carousel" itemprop="isRelatedTo">
+						<ul itemscope itemtype="http://schema.org/ItemList" role="list">
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="1"><img src="img/1.jpg" itemprop="image" role="presentation"></li>
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="2"><img src="img/2.jpg" itemprop="image" role="presentation"></li>
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="3"><img src="img/3.jpg" itemprop="image" role="presentation"></li>
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="4"><img src="img/4.jpg" itemprop="image" role="presentation"></li>
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="5"><img src="img/5.jpg" itemprop="image" role="presentation"></li>
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="6"><img src="img/6.jpg" itemprop="image" role="presentation"></li>
 			            </ul>
 					</div>
 				</footer>
 			</article>
 
-			<div class="clear"></div>
+			<div class="clear" role="separator"></div>
 
-			<section class="bottom ch-tabs">
+			<section class="bottom ch-tabs" role="complementary">
 				<ul class="ch-tabs-triggers" role="tablist">
 					<li>
 						<a href="#tab1" class="ch-tab" role="tab" aria-controls="tab1">Product description</a>
@@ -73,7 +73,7 @@
 					</li>
 				</ul>
 				<div class="ch-box-lite" role="presentation">
-					<div id="tab1" class="ch-tabpanel" role="tabpanel" aria-expanded="false" aria-hidden="true">
+					<div id="tab1" class="ch-tabpanel" role="tabpanel" aria-expanded="false" aria-hidden="true" itemprop="description">
 						<h2>Ipad mini 16Gb 7.9"</h2>
 						<p>Lorem Ipsum</p>
 						<p>Lorem Ipsum Lorem Ipsum</p>

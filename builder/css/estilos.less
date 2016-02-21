@@ -30,13 +30,19 @@
 			form{
 				fieldset{
 					margin-bottom: 5px;
+
 					label{
 						display: inline-block;
 					    width: 70px;
 					}
 					select{  }
-					h2.ch-price::before{ content: "$ "; }
-					h2.ch-price{ font-size: 36px; }
+					h2.ch-price{  
+						span{ 
+							font-size: 36px; 
+							font-weight: 700;
+							color: #900;
+						}
+					}
 					p{ font-size: 10px; }
 				}
 				fieldset:last-of-type{

@@ -74,11 +74,11 @@
 				</ul>
 				<div class="ch-box-lite" role="presentation">
 					<div id="tab1" class="ch-tabpanel" role="tabpanel" aria-expanded="false" aria-hidden="true">
-						<h2>Ipad mini de 16Gb pantalla 7.9"</h2>
-						<p>Con pantalla Retina de 7.9", resolución de 2048x1536px y 326px por pulgada</p>
-						<p>Posee carcasa de aluminio reciclable</p>
-						<p>Producto nuevo y sellado</p>
-						<p>TENEMOS STOCK PARA ENTREGA INMEDIATA!</p>
+						<h2>Ipad mini 16Gb 7.9"</h2>
+						<p>Lorem Ipsum</p>
+						<p>Lorem Ipsum Lorem Ipsum</p>
+						<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+						<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
 					</div>
 					<div id="tab2" class="ch-tabpanel" role="tabpanel" aria-expanded="true" aria-hidden="false">
 						<ul class="list-questions">

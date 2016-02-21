@@ -10,7 +10,7 @@ var gulp = require('gulp'),
 
 //FUNCIONES
 gulp.task('minJS', function () {
-	gulp.src('builder/js/scripter.js')
+	gulp.src('builder/js/*.js')
 	.pipe(concat('main.js'))
 	.pipe(uglify())
 	.pipe(gulp.dest('site/js'))

@@ -16,6 +16,9 @@
     "url": "https://github.com/mstrugo/ml-test/issues"
   },
   "homepage": "https://github.com/mstrugo/ml-test#readme",
+    "dependencies": {
+    "tiny.js": "^0.1.6"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",

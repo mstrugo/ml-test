@@ -53,43 +53,23 @@
 			</article>
 
 			<section class="bottom clear ch-tabs">
-				<div class="tab ch-box-tab" id="tab-1">
-			        <span><a class="ch-tab ch-expandable-trigger-on" href="#tab-1" role="tab" arial-controls="tab0">Product description</a></span>
-			        <span id="tab0" class="ch-box-lite ch-tabpanel" role="tabpanel" aria-expanded="true" aria-hidden="false">
-			        	<p>Ipad Mini Apple 16 Gb Wifi Led 7.9</p>
-			        </span>
-			    </div>
-			    <div class="tab ch-box-lite" id="tab-2">
-			        <span><a class="ch-tab" href="#tab1" role="tab" arial-controls="tab1">Questions</a></span>
-			        <span id="tab1" class="ch-box-lite ch-tabpanel" role="tabpanel" aria-expanded="true" aria-hidden="false">
-			       		<ul class="list-questions">
-							<li>
-								<dl>
-									<dt class="question">Buyer</dt>
-									<dd class="ch-box-info">Do you have this one in white?</dd>
-									<dt class="answer">Seller</dt>
-									<dd class="ch-box-ok">No I don't, I only have black</dd>
-								</dl>
-							</li>
-						</ul>
-			        </span>
-			    </div>
-			</section>
-			
-			<section class="bottom clear ch-tabs">
 				<ul class="ch-tabs-triggers" role="tablist">
 					<li>
-						<a class="ch-tab ch-expandable-trigger-on" href="#tab0" role="tab" arial-controls="tab0">Product description</a>
+						<a href="#tab1" class="ch-tab" role="tab" aria-controls="tab1"  onclick="$('.ch-tab').toggleClass('ch-expandable-trigger-on');">Product description</a>
 					</li>
 					<li>
-						<a class="ch-tab" href="#tab1" role="tab" arial-controls="tab1">Questions</a>
+						<a href="#tab2" class="ch-tab ch-expandable-trigger-on" role="tab" aria-controls="tab2" onclick="$('.ch-tab').toggleClass('ch-expandable-trigger-on');">Questions</a>
 					</li>
 				</ul>
 				<div class="ch-box-lite" role="presentation">
-					<div id="tab0" class="ch-tabpanel" role="tabpanel" aria-expanded="true" aria-hidden="false">
-						<p>Ipad Mini Apple 16 Gb Wifi Led 7.9</p>
+					<div id="tab1" class="ch-tabpanel" role="tabpanel" aria-expanded="true" aria-hidden="false">
+						<h2>Ipad mini de 16Gb pantalla 7.9"</h2>
+						<p>Con pantalla Retina de 7.9", resolución de 2048x1536px y 326px por pulgada</p>
+						<p>Posee carcasa de aluminio reciclable</p>
+						<p>Producto nuevo y sellado</p>
+						<p>TENEMOS STOCK PARA ENTREGA INMEDIATA!</p>
 					</div>
-					<div id="tab1" class="ch-tabpanel ch-hide" role="tabpanel" aria-expanded="false" aria-hidden="true">
+					<div id="tab2" class="ch-tabpanel" role="tabpanel" aria-expanded="false" aria-hidden="true">
 						<ul class="list-questions">
 							<li>
 								<dl>
@@ -103,7 +83,7 @@
 					</div>
 				</div>
 			</section>
-			
+
 		</section>
 	</main>
 

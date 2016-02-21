@@ -48,28 +48,39 @@
 				</form>
 				<footer>
 					<header><h3>More products like this</h3></header>
-					<div class="ch-carousel more-items"></div>
+					<div class="ch-carousel">
+						<ul>
+			                <li><img src="img/1.jpg"></li>
+			                <li><img src="img/2.jpg"></li>
+			                <li><img src="img/3.jpg"></li>
+			                <li><img src="img/4.jpg"></li>
+			                <li><img src="img/5.jpg"></li>
+			                <li><img src="img/6.jpg"></li>
+			            </ul>
+					</div>
 				</footer>
 			</article>
 
-			<section class="bottom clear ch-tabs">
+			<div class="clear"></div>
+
+			<section class="bottom ch-tabs">
 				<ul class="ch-tabs-triggers" role="tablist">
 					<li>
-						<a href="#tab1" class="ch-tab" role="tab" aria-controls="tab1"  onclick="$('.ch-tab').toggleClass('ch-expandable-trigger-on');">Product description</a>
+						<a href="#tab1" class="ch-tab" role="tab" aria-controls="tab1">Product description</a>
 					</li>
 					<li>
-						<a href="#tab2" class="ch-tab ch-expandable-trigger-on" role="tab" aria-controls="tab2" onclick="$('.ch-tab').toggleClass('ch-expandable-trigger-on');">Questions</a>
+						<a href="#tab2" class="ch-tab" role="tab" aria-controls="tab2">Questions</a>
 					</li>
 				</ul>
 				<div class="ch-box-lite" role="presentation">
-					<div id="tab1" class="ch-tabpanel" role="tabpanel" aria-expanded="true" aria-hidden="false">
+					<div id="tab1" class="ch-tabpanel" role="tabpanel" aria-expanded="false" aria-hidden="true">
 						<h2>Ipad mini de 16Gb pantalla 7.9"</h2>
 						<p>Con pantalla Retina de 7.9", resolución de 2048x1536px y 326px por pulgada</p>
 						<p>Posee carcasa de aluminio reciclable</p>
 						<p>Producto nuevo y sellado</p>
 						<p>TENEMOS STOCK PARA ENTREGA INMEDIATA!</p>
 					</div>
-					<div id="tab2" class="ch-tabpanel" role="tabpanel" aria-expanded="false" aria-hidden="true">
+					<div id="tab2" class="ch-tabpanel" role="tabpanel" aria-expanded="true" aria-hidden="false">
 						<ul class="list-questions">
 							<li>
 								<dl>

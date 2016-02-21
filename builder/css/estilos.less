@@ -2,7 +2,7 @@
 
 .left { float: left; }
 .right { float: right; }
-.clear { clear: both; }
+.clear { clear: both; border-top: 1px solid #ccc; }
 
 #contenedor {
 
@@ -13,12 +13,10 @@
 
 	section{
 		header {
-			text-align: left;
-			color: black;
-			margin-bottom: 25px;
 			h1{
 				text-transform: capitalize;
 				font-size: 31px;
+				margin-bottom: 25px;
 			}
 		}
 		aside{
@@ -28,6 +26,7 @@
 		}
 		article{
 			width: 46%;
+			height: 272px;
 			form{
 				fieldset{
 					margin-bottom: 5px;
@@ -46,8 +45,15 @@
 			}
 			footer{
 				margin-top: 10px;
+				.ch-carousel{
+					height: 80px;
+					.ch-carousel-next, .ch-carousel-prev{
+						line-height: 2.3em;
+					}
+				}
 			}
 		}
+
 		.bottom{
 			.ch-tabpanel{ display: none; 
 				dd{ padding: 10px 0 10px 30px; }

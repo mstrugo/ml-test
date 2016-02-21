@@ -1,3 +1,7 @@
+if( window.location.hash == "" ){
+	window.location.hash = "#tab2";
+}
+
 function qS(selector) { return document.querySelector(selector); };
 
 // Create a new carousel.

@@ -27,7 +27,7 @@ gulp.task('minHTML', function () {
 	gulp.src('builder/html/*.tpl')
 	.pipe(concat('index.html'))
 	.pipe(minifyHTML({collapseWhitespace:true}))
-	.pipe(gulp.dest('site/'))
+	.pipe(gulp.dest(''))
 });
 
 

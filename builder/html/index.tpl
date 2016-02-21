@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Front-end Test</title>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="site/css/estilos.css">
 </head>
 <body>
 
@@ -15,7 +15,7 @@
 			<header><h1 itemprop="name" role="heading">ipad mini apple 16 gb wifi led 7.9</h1></header>
 			<aside class="left ch-box-lite">
 				<figure>
-					<img src="img/ipad.jpg" alt="Ipad Mini Apple 16 Gb Wifi Led 7.9" title="Ipad Mini Apple 16 Gb Wifi Led 7.9" itemprop="image" role="img">
+					<img src="site/img/ipad.jpg" alt="Ipad Mini Apple 16 Gb Wifi Led 7.9" title="Ipad Mini Apple 16 Gb Wifi Led 7.9" itemprop="image" role="img">
 				</figure>
 			</aside>
 			<article class="right ch-box-container" role="article"> 
@@ -50,12 +50,12 @@
 					<header><h3 role="heading">More products like this</h3></header>
 					<div class="ch-carousel" itemprop="isRelatedTo">
 						<ul itemscope itemtype="http://schema.org/ItemList" role="list">
-			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="1"><img src="img/1.jpg" itemprop="image" role="presentation"></li>
-			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="2"><img src="img/2.jpg" itemprop="image" role="presentation"></li>
-			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="3"><img src="img/3.jpg" itemprop="image" role="presentation"></li>
-			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="4"><img src="img/4.jpg" itemprop="image" role="presentation"></li>
-			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="5"><img src="img/5.jpg" itemprop="image" role="presentation"></li>
-			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="6"><img src="img/6.jpg" itemprop="image" role="presentation"></li>
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="1"><img src="site/img/1.jpg" itemprop="image" role="presentation"></li>
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="2"><img src="site/img/2.jpg" itemprop="image" role="presentation"></li>
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="3"><img src="site/img/3.jpg" itemprop="image" role="presentation"></li>
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="4"><img src="site/img/4.jpg" itemprop="image" role="presentation"></li>
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="5"><img src="site/img/5.jpg" itemprop="image" role="presentation"></li>
+			                <li itemprop="isRelatedTo" role="listItem" aria-hidden="false" aria-setsize="6" aria-posinset="6"><img src="site/img/6.jpg" itemprop="image" role="presentation"></li>
 			            </ul>
 					</div>
 				</footer>
@@ -99,6 +99,6 @@
 	</main>
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="site/js/main.js"></script>
 </body>
 </html>

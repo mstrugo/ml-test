@@ -26,19 +26,19 @@
 					<fieldset>
 						<label for="SelCant">Quantity</label>
 						<select name="SelCant" id="SelCant" class="ch-dropdown-trigger" itemprop="availability" href="http://schema.org/InStock">
-							<option value="1" aria-setsize="1" aria-posinset="1" default>1</option>
-							<option value="2" aria-setsize="2" aria-posinset="2">2</option>
-							<option value="3" aria-setsize="3" aria-posinset="3">3</option>
-							<option value="4" aria-setsize="4" aria-posinset="4">4</option>
+							<option role="option" value="1" aria-setsize="1" aria-posinset="1" default>1</option>
+							<option role="option" value="2" aria-setsize="2" aria-posinset="2">2</option>
+							<option role="option" value="3" aria-setsize="3" aria-posinset="3">3</option>
+							<option role="option" value="4" aria-setsize="4" aria-posinset="4">4</option>
 						</select>
 					</fieldset>
 					<fieldset>
 						<label for="SelPay">Payments</label>
 						<select name="SelPay" id="SelPay" class="ch-dropdown-trigger">
-							<option value="1" aria-setsize="4" aria-posinset="1" default>1</option>
-							<option value="3" aria-setsize="4" aria-posinset="2">3</option>
-							<option value="6" aria-setsize="4" aria-posinset="3">6</option>
-							<option value="12" aria-setsize="4" aria-posinset="4">12</option>
+							<option role="option" value="1" aria-setsize="4" aria-posinset="1" default>1</option>
+							<option role="option" value="3" aria-setsize="4" aria-posinset="2">3</option>
+							<option role="option" value="6" aria-setsize="4" aria-posinset="3">6</option>
+							<option role="option" value="12" aria-setsize="4" aria-posinset="4">12</option>
 						</select>
 					</fieldset>
 					<fieldset>

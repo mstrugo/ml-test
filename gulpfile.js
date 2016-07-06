@@ -5,7 +5,7 @@ var gulp = require('gulp'),
 	minifyHTML = require('gulp-htmlmin'),
 	minifyCSS = require('gulp-cssnano')
 	less = require('gulp-less'),
-	LessPluginAutoPrefix = require('less-plugin-autoprefix'), 
+	LessPluginAutoPrefix = require('less-plugin-autoprefix'),
 		autoprefix= new LessPluginAutoPrefix({browsers: ["last 2 versions"]});
 
 //FUNCIONES
@@ -17,15 +17,15 @@ gulp.task('minJS', function () {
 });
 
 gulp.task('minCSS', function () {
-	gulp.src('builder/css/estilos.less')
+	gulp.src('builder/css/*.less')
 	.pipe(less({plugins:[autoprefix]}))
 	.pipe(minifyCSS())
 	.pipe(gulp.dest('site/css'))
 });
 
 gulp.task('minHTML', function () {
-	gulp.src('builder/html/*.tpl')
-	.pipe(concat('index.html'))
+	gulp.src('builder/html/*.html')
+	//.pipe(concat('index.html'))
 	.pipe(minifyHTML({collapseWhitespace:true}))
 	.pipe(gulp.dest('site/'))
 });

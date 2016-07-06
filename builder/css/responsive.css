@@ -1,0 +1,450 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+#map-canvas img {
+    max-width:none;
+}
+/* iPads (portrait and landscape) (DESDE 768PX HASTA 1024PX VA SER DE COLOR ROJO) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .content-banner{
+        padding: 75px 0 0;
+        width: 100%; /*340*/
+    }
+}
+/* iPads (portrait) (HASTA 800PX COLOR AZUL)  ----------- */
+@media only screen and (max-width : 800px) and (min-width : 768px){
+    #wrapper{
+        width: 100%;
+    }
+    #banner{
+        background:url("../images/bg_1024.jpg") no-repeat top center !important;
+        height: 737px;
+    }
+    .common-content{
+        margin: 0 0 50px 0!important;
+    }
+    #cultura section{
+        margin-bottom: 0 !important;
+    }
+    #equipos section.last{
+        margin-bottom: 0 !important;
+    }
+    #crece section.last{
+        margin-bottom: 0 !important;
+    }
+    .content-banner{
+        padding: 75px 0 0;
+        width: 750px;
+    }
+    .map{
+        height: 482px !important;
+    }
+}
+/* iPads (portrait) (HASTA 768PX COLOR AZUL)  ----------- */
+@media only screen and (max-width : 768px) {
+    #wrapper{
+        width: 100%;
+    }
+    .common-content{
+        margin: 0 0 50px 0!important;
+    }
+    .logo {
+        width: 161px;
+        z-index: 999;
+        position: relative;
+    }
+}
+/* ??? (???) (HASTA 640PX COLOR GRIS)  ----------- */
+@media only screen and (max-width: 640px) {
+  .secondary-btn-hdr {
+    font-size: 1.5em;
+    color: #333;
+    /*margin: 0!important;*/
+    padding: 8px;
+    line-height: 1.2em!important; /*line-height: 4em!important;*/
+    font-family: Lato-Lig;
+    text-shadow: 2px 2px 4px #333;
+    background-color: #aaa;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    width: 250px;
+    margin: 10px 0 0 !important;
+  }
+  .vacantes .secondary-btn-foot{
+    margin: 10px auto 0 !important; /*0 !important;*/
+  }
+}
+/* MINI TABLETS (landscape)(HASTA 600PX COLOR AZUL) ----------- */
+@media only screen and (max-width :600px) and (min-width: 569px){
+    #banner{
+        background:url("../images/bg_1024.jpg") no-repeat top center !important;
+        height: 737px;
+    }
+    .content-banner{
+        padding: 75px 0 0;
+        width: 490px;
+    }
+    #equipos section{
+        margin-bottom: 0 !important;
+    }
+    #top-bar header{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .logo{
+        margin: 5px 0 0 12px !important;
+    }
+    #nav {
+        width: 100%;
+        border-top: solid 1px #e8d94a;
+        margin: 29px 0 0 !important;
+        padding: 0;
+        right: 0;
+        text-align: center;
+        z-index: 9999;
+    }
+    #nav ul{
+        background-color: #FFE600;
+    }
+        #nav ul li {
+            margin: 0 37px 0 !important;
+            display: block;
+            float: none;
+        }
+            #nav ul li a{
+                width: 100%;
+                display: block;
+                float: none;
+                padding: 14px 0px;
+                text-align: center;
+                height: inherit !important;
+            }
+                #nav ul li a:hover, #nav li a.active{
+                    background: none;
+                }
+    h2{
+        display: inline-block;
+    }
+    h3{
+        /*text-align: center !important;*/
+    }
+    .map{
+        height: 287px !important;
+    }
+    .hidden{
+        visibility:  visible !important;
+        display: block !important ;
+    }
+    .show{
+        visibility:  hidden !important;
+        display: none !important;
+    }
+    #cultura ul li {
+        margin: 0 0 42px 0 !important;
+    }
+    .mla{
+        overflow: hidden;
+    }
+        .mla span{
+            position: relative;
+            left: 50%;
+            margin: 0 20px 20px -76.5px !important;
+        }
+        .mlm span{
+            position: relative;
+            left: 50%;
+            margin: 0 20px 20px -52.5px !important;
+        }
+    #equipos article section {
+        /*text-align: center !important;*/
+    }
+        #equipos article section .ch-rightcolumn {
+            margin-left: 0 !important;
+            margin-bottom: 60px !important;
+        }
+        #equipos article section .ch-leftcolumn {
+            margin-bottom: 60px;
+        }
+    #crece ul li{
+        margin: 0 0  42px 0 !important;
+    }
+    #crece article section {
+        margin-bottom: 0 !important;
+    }
+    footer{
+        height:  inherit;
+    }
+        footer .logo-footer{
+            float: none;
+            text-align: center;
+        }
+        footer .copyright{
+            float: none;
+            text-align: center;
+        }
+        footer nav{
+            float: none;
+            text-align: center;
+        }
+}
+/* Smartphones (portrait) (HASTA 568PX IPHONE 5)----------- */
+@media only screen and (max-width : 568px) {
+    .content-banner{
+        padding: 10px 0 0;
+        width: 100%; /*340*/
+    }
+    #banner{
+        background:url("../images/bg_1024.jpg") no-repeat top center !important;
+    }
+    h1{
+        font-size: 60.35px !important;
+    }
+    #top-bar header{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .logo{
+        margin: 5px 0 0 12px !important;
+    }
+    #nav {
+        width: 100%;
+        margin: 29px 0 0 !important;
+        padding: 0;
+        right: 0;
+        text-align: center;
+        z-index: 9999;
+    }
+    #nav ul{
+        background-color: #FFE600;
+    }
+        #nav ul li {
+            margin: 0 36px 0 !important;
+            display: block;
+            float: none;
+        }
+            #nav ul li a{
+                width: 100%;
+                display: block;
+                float: none;
+                padding: 14px 0px;
+                text-align: center;
+                height: inherit !important;
+            }
+                #nav ul li a:hover, #nav li a.active{
+                    background: none;
+                }
+    h2{
+        display: inline-block;
+    }
+    h3{
+        /*text-align: center !important;*/
+    }
+    .map{
+        height: 287px !important;
+    }
+    .hidden{
+        visibility:  visible !important;
+        display: block !important ;
+    }
+    .show{
+        visibility:  hidden !important;
+        display: none !important;
+    }
+    #cultura ul li {
+        margin: 0 0 42px 0 !important;
+    }
+    .mla{
+        overflow: hidden;
+    }
+        .mla span{
+            position: relative;
+            left: 50%;
+            margin: 0 20px 20px -76.5px !important;
+        }
+        .mlm span{
+            position: relative;
+            left: 50%;
+            margin: 0 20px 20px -52.5px !important;
+        }
+    #equipos article section {
+        /*text-align: center !important;*/
+        margin-bottom: 0 !important;
+    }
+        #equipos article section .ch-rightcolumn {
+            margin-left: 0 !important;
+            margin-bottom: 60px !important;
+        }
+        #equipos article section .ch-leftcolumn {
+            margin-bottom: 60px !important;
+        }
+    #crece ul li{
+        margin: 0 0  42px 0 !important;
+    }
+    #crece article section {
+        margin-bottom: 0 !important;
+    }
+    .vacantes{
+        margin-top: 24px 0 !important; /*0 !important;*/
+    }
+
+    footer{
+        height:  inherit;
+    }
+        footer .logo-footer{
+            float: none;
+            text-align: center;
+        }
+        footer .copyright{
+            float: none;
+            text-align: center;
+        }
+        footer nav{
+            float: none;
+            text-align: center;
+        }
+}
+/* Smartphones (landscape) (HASTA 480PX COLOR NEGRO)----------- */
+@media only screen and (max-width : 480px) {
+    #nav ul li {
+        margin: 0 27px 0 !important;
+        height: inherit !important;
+    }
+    #banner{
+        background:url("../images/bg_1024.jpg") no-repeat top center !important;
+    }
+    #cultura .culturaVideos li{
+      margin: 0 !important; /*0 0 42px 0 */
+      height: 250px;
+    }
+    .crece p{
+      padding: 0px 20px !important;
+    }
+    .ch-carousel{
+      height: 254px !important;
+    }
+    .ch-carousel-adaptive,
+    .ch-carousel-item,
+    .ch-carousel-item img{
+      width: 380px !important;
+    }
+    .ch-carousel-adaptive{
+      margin: 0 auto;
+    }
+    footer{
+      margin-top: 60px !important;
+    }
+}
+/* Smartphones (portrait) (HASTA 360PX COLOR NEGRO)----------- */
+@media only screen and (max-width : 360px) {
+    .content-banner h1{
+      font-size: 46px !important;
+    }
+}
+/* Smartphones (portrait) (HASTA 320PX COLOR NEGRO)----------- */
+@media only screen and (max-width : 320px) {
+    .content-banner{
+        padding: 30px 0 0;
+        width: 300px; /*210*/
+    }
+    #banner{
+        background:url("../images/bg_320.jpg") no-repeat top center !important;
+        height: 565px !important; /*516*/
+    }
+    h1{
+        font-size: 40.35px !important;
+    }
+    #nav ul li {
+        margin: 0 11px 0 !important;
+    }
+    .common-content{
+        margin: 0 0 50px 0!important;
+        /*margin: 0 !important;*/
+    }
+    h3{
+        /*text-align: center !important;*/
+    }
+    .map{
+        height: 287px !important;
+    }
+    .hidden{
+        visibility:  visible !important;
+        display: block !important ;
+    }
+    .show{
+        visibility:  hidden !important;
+        display: none !important;
+    }
+    #cultura ul li {
+        margin: 0 0 42px 0 !important;
+    }
+    #cultura .culturaVideos li {
+      margin: 0 !important; /*0 0 42px 0 */
+      height: 250px;
+    }
+    .mla{
+        overflow: hidden;
+    }
+    .mla span{
+        position: relative;
+        left: 50%;
+        margin: 0 0 20px -76.5px !important;
+    }
+    .mlm span{
+        position: relative;
+        left: 50%;
+        margin: 0 20px 20px -52.5px !important;
+    }
+    #equipos article section {
+        /*text-align: center !important;*/
+    }
+    #equipos article section .ch-rightcolumn {
+        margin-left: 0 !important;
+        margin-bottom: 60px !important;
+    }
+    #equipos article section .ch-leftcolumn {
+        margin-bottom: 60px;
+    }
+    #equipos article section a{
+      font-size: 15px;
+    }
+    .vacantes{
+        margin-top: 20px !important;
+    }
+    .crece p{
+      padding: 0 !important;
+    }
+    footer{
+        height: inherit;
+        margin-top: 0 !important;
+    }
+    footer .logo-footer{
+        float: none;
+        text-align: center;
+    }
+    footer .copyright{
+        float: none;
+        text-align: center;
+    }
+    footer nav{
+        float: none;
+        text-align: center;
+        font-size: 11px;
+    }
+    footer nav ul li {
+        padding: 0 5px;
+    }
+    .ch-carousel{
+      height: 154px !important;
+    }
+    .ch-carousel-adaptive,
+    .ch-carousel-item,
+    .ch-carousel-item img{
+      width: 230px !important;
+    }
+    .ch-carousel-adaptive{
+      margin: 0 auto;
+    }
+
+}

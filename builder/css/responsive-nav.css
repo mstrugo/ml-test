@@ -1,0 +1,48 @@
+/*! responsive-nav.js v1.0.15 by @viljamis */
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+#nav li {
+  display: block;
+}
+
+.js #nav {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+#nav-toggle {
+    background: url("../images/btn_menu.png") no-repeat scroll center center #FFE600;
+    text-indent: -99999px;
+    width: 24px;
+    height: 18px;
+    display: block;
+    float: right;
+    padding: 12px;
+    margin: 6px 0 0;
+}
+
+#nav.opened {
+  max-height: 9999px !important;
+}
+
+@media screen and (min-width: 40em) {
+  .js #nav {
+    position: relative;
+  }
+  .js #nav.closed {
+    max-height: none;
+  }
+  #nav-toggle {
+    display: none;
+  }
+}

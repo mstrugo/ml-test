@@ -1,0 +1,722 @@
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('/arf/fonts/proximanova-light-webfont.eot');
+    src: url('/arf/fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/arf/fonts/proximanova-light-webfont.woff2') format('woff2'),
+    url('/arf/fonts/proximanova-light-webfont.woff') format('woff'),
+    url('/arf/fonts/proximanova-light-webfont.ttf') format('truetype'),
+    url('/arf/fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('/arf/fonts/proximanova-regular-webfont.eot');
+    src: url('/arf/fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/arf/fonts/proximanova-regular-webfont.woff2') format('woff2'),
+    url('/arf/fonts/proximanova-regular-webfont.woff') format('woff'),
+    url('/arf/fonts/proximanova-regular-webfont.ttf') format('truetype'),
+    url('/arf/fonts/proximanova-regular-webfont.svg#proxima_novaregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'proxima-nova', Helvetica, sans-serif;
+    font-weight: 300;
+    /*padding: 10px 0;*/
+    background: #efeff4
+}
+a, a:active, a:focus, a:hover, a:link, a:visited {
+    text-decoration: none;
+    margin-bottom: 0;
+    color: #3483fa;
+    font-weight: 100;
+    font-size: 18px;
+}
+a:active, a:focus {
+    color: #000
+}
+.ml-wrapper {
+    padding: 0 0 10px
+}
+main[class*=ch-box-] {
+    margin: 0
+}
+.ml-bounds {
+    padding: 0
+}
+h1, h2 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+}
+[class*=ch-box] h2 {
+    margin-bottom: 5px
+}
+.ch-header, .explanation-text, .ml-wrapper:after, footer, header {
+    display: none
+}
+hr {
+    border-color: #e9e9e9;
+    margin-right: -10px
+}
+button, input[type=submit] {
+    -webkit-appearance: button
+}
+input[type=datatime-local], input[type=datatime], input[type=date], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week] {
+    border-radius: 0;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    margin-right: -10px
+}
+input[type=datatime-local]:focus, input[type=datatime]:focus, input[type=date]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus {
+    border-width: 0 0 2px; /*0 0 1px*/
+    padding: 6px;
+    border-color: #2681ff /*cdcdcd*/
+}
+/*
+.ch-app-box-lite .ch-form-row {
+    margin-right: -10px
+}
+.ml-contextual .ml-wrapper {
+    background: #efeff4
+}
+*/
+
+.ch-btn,
+.ch-btn-action.ch-btn-large,
+.ch-btn-action.ch-btn-large:active,
+.ch-btn-action.ch-btn-large:focus,
+.ch-btn-action.ch-btn-large:hover,
+.ch-btn-action.ch-btn-large:visited,
+.ch-btn-large:hover,
+.ch-btn-skin:hover,
+.ch-btn:active,
+.ch-btn:focus,
+.ch-btn:hover,
+.ch-btn:visited,
+.ch-btn:disabled:active,
+.ch-btn:disabled:focus,
+.ch-btn:disabled:hover,
+.ch-btn:disabled{
+    background-image: none;
+    box-shadow: none;
+    text-decoration: none;
+    text-shadow: none;
+    background-color: #2681ff;
+    font-weight: 400;
+    border: none !important;
+    color: #fff !important;
+}
+
+.ch-app-no-box, .ml-contextual .ch-app-no-box {
+    background: transparent;
+    border: none;
+    padding: 0
+}
+.ch-app-box-lite {
+    background: #fff;
+    padding: 16px; /*10px*/
+    margin: 0; /*0 0 10px*/
+}
+.ch-box-lite {
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 10px
+}
+.ch-box {
+    background: none;
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+.box-content {
+    padding: 10px
+}
+.code-view .code-box {
+    border-radius: 0;
+    text-align: center
+}
+.code-view .code-box b {
+    color: #333;
+    font-size: 22px
+}
+.ch-btn, .ch-btn-action.ch-btn-large, .ch-btn-action.ch-btn-large:active, .ch-btn-action.ch-btn-large:focus, .ch-btn-action.ch-btn-large:hover, .ch-btn-action.ch-btn-large:visited, .ch-btn-large:hover, .ch-btn:active, .ch-btn:focus, .ch-btn:hover, .ch-btn:visited {
+    background-image: none;
+    box-shadow: none;
+    color: inherit;
+    text-decoration: none;
+    text-shadow: none
+}
+.ch-btn.ch-btn-large {
+    background-color: #2681FF; /* #202360; */
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-weight: 100
+}
+.ch-btn.ch-btn-skin {
+    background: #b3cdf9;
+    color: #506d90;
+}
+.ch-btn-action.ch-btn-large,
+.ch-btn-action.ch-btn-large:focus,
+.ch-btn-action.ch-btn-large:visited {
+    background-color: #fff;
+    border: 1px solid #979797;
+    padding: 6px 0;
+    color: #555
+}
+.ch-btn.ch-btn-skin.recognize, #addPhone{
+  color: #506d90 !important;
+}
+
+.ch-form-row {
+    margin: 0;
+    padding: 0
+}
+.ch-form-row label {
+    padding-top: 0
+}
+.ch-form-row select {
+    margin-top: 8px
+}
+.box-buttons {
+    padding: 0 10px
+}
+.ch-form-actions {
+    margin: 0
+}
+.ios #recoveryStartForm, .ios .ch-app-no-box {
+    background: #fff;
+    padding-bottom: 10px
+}
+.ios .account-recovery-actions,
+.ios .ch-form-actions {
+    padding: 0 16px /*0 20px*/
+}
+.form-row-input {
+    margin-right: -10px
+}
+.form-container {
+    background: inherit;
+    padding: 0
+}
+.form-container fieldset {
+    background: #fff;
+    padding-top: 10px
+}
+.ch-form-row select {
+    margin-bottom: 10px
+}
+.form-container .ch-form-row {
+    padding-left: 10px
+}
+.form-container .ch-form-actions {
+    padding: 10px
+}
+.ch-box-error {
+    border-radius: 0
+}
+.ch-box-lite .ch-box-error {
+    border: 1px solid #cdcdcd;
+    border-width: 1px 0;
+    margin: -6px 0 5px;
+    position: relative
+}
+.box-row .ch-box-error {
+    margin-left: -10px;
+    margin-right: -10px
+}
+.ch-box-error.ch-box-icon {
+    padding-left: 10px
+}
+.ch-box-error p+p {
+    margin-top: 5px
+}
+.ch-box-error .ch-icon-remove-sign {
+    display: none
+}
+.ch-box-error:after, .ch-box-error:before {
+    border: outset transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+.ch-box-error:before {
+    border-width: 7px;
+    border-bottom-color: #cdcdcd;
+    content: '';
+    left: 20px;
+    bottom: 100%;
+    border-bottom-style: solid
+}
+.ch-box-error:after {
+    border-width: 5px;
+    border-bottom-color: #f5e6e6;
+    content: '';
+    left: 22px;
+    bottom: 100%;
+    border-bottom-style: solid
+}
+.ch-box-lite hr+.ch-box-error {
+    margin-top: -11px
+}
+.change-form .ch-box-error {
+    margin-left: -10px
+}
+.ios .change-form .ch-form-actions {
+    background: #fff
+}
+input.repeat-password {
+    margin-bottom: 20px
+}
+.ch-form-row.label-validation-code {
+    margin-top: 20px
+}
+.ch-form-row label:first-child {
+    padding-top: 7px
+}
+.arf-start-btn {
+    margin-top: 0
+}
+.push-code-max-code-sent {
+    margin-right: 10px
+}
+.action-push-code-disabled {
+    margin: 10px 0
+}
+.security-rba #ConfirmPhoneLater,
+.security-rba #confirmPhoneLater {
+    width: 100%;
+    font-size: 16px;
+    border: none
+}
+
+.ios .security-rba .changePassword fieldset{
+    padding: 10px;
+}
+.ios .security-rba .ch-form-row{
+    padding: 0;
+    margin-right: 0;
+}
+
+.ios .security-rba .changePassword fieldset .ch-form-row .ch-box-validation{
+    border: none;
+    margin: 0;
+}
+
+.security-rba-congrats {
+    border: 1px solid #dcead5;
+    border-width: 1px 0;
+    border-radius: 0
+}
+.ml-contextual.ios .enrollment-container {
+    margin-top: 0;
+    padding: 0;
+    background: #fff;
+    /*
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    */
+    font-family: inherit;
+}
+
+.ios .enrollment-container.enrollment-reminder{
+    padding-top: 21px;
+    background: #f8f8f8; /* Old browsers */
+    background: -moz-linear-gradient(top, #f8f8f8 70%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70%,#f8f8f8), color-stop(100%,#ffffff)); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(top, #f8f8f8 70%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(top, #f8f8f8 70%,#ffffff 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(top, #f8f8f8 70%,#ffffff 100%); /* IE10 preview */
+    background: linear-gradient(to bottom, #f8f8f8 70%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.ios .enrollment-container.enrollment-instructions{
+  padding: 120px 0 0;
+}
+
+.ios .enrollment-header {
+    /*
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    */
+    margin: 0 0 55px; /* 0 0 46px */
+}
+.ios .enrollment-container h1 {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0;
+    /*margin-bottom: 11px;*/
+    margin: 0 115px 11px;
+}
+.ios .enrollment-container p {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 17px;
+    margin: 0 48px;
+}
+.ios .enrollment-container p+h2 {
+    margin: 31px 0 26px;
+    letter-spacing: 0.1px;
+}
+
+.ios .enrollment-container.enrollment-congratulations p {
+    letter-spacing: 0;
+}
+
+
+.ios .ml-wrapper {
+    padding-bottom: 0
+}
+.ios .ml-wrapper:after {
+    height: 10px
+}
+.ios .ch-btn-large:focus,
+.ios .ch-btn-large:hover,
+.ios .ch-btn.ch-btn-large {
+    outline: none;
+    font-size: 18px;
+    line-height: 25px;
+    height: 48px;
+    padding: 12px;
+}
+.ios .enrollment-phones {
+    margin: 0 16px; /* 0 10px */
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+}
+.ios .enrollment-phones li {
+    padding: 16px 6px; /*13px*/
+    height: 50px;
+    border-bottom: .5px solid #cccccc;
+    border-top: none;
+    line-height: 20px;
+}
+
+.ios .enrollment-phones li:first-child{
+    border-top: .5px solid #cccccc;
+}
+
+
+.ios .enrollment-phones li input[type="radio"]:checked + label{
+    font-weight: inherit;
+}
+
+.ios .enrollment-phones li label:before{
+    width: 15px;
+    height: 15px;
+    top: 1px;
+    right: 6px;
+}
+.ios .enrollment-phones li label:after{
+    width: 7px;
+    height: 7px;
+    top: 5px;
+    right: 10px;
+}
+
+
+.ios .enrollment-actions {
+    /*padding: 10px;
+    margin-top: 10px*/
+    margin: 30px 16px 0; /*34px 16px*/
+}
+/*
+.ios .enrollment-actions .ch-btn {
+    text-transform: none;
+    width: 94%
+}
+*/
+.ios .enrollment-phones.is-selected-other+.enrollment-select-number,
+.ios .no-js .enrollment-phones+.enrollment-select-number {
+    margin: 10px 26px; /*0 10px*/
+    /*border-right: 1px solid #ddd*/
+    border: 0;
+    padding: 4px 0;
+}
+.ios .enrollment-phones.is-selected-other+.enrollment-select-number.has-errors,
+.ios .no-js .enrollment-phones+.enrollment-select-number.has-errors {
+    margin-bottom: 49px /*40px*/
+}
+
+
+.ios .enrollment-code.has-errors,
+.ios .enrollment-select-number.has-errors,
+.ios .enrollment-select-number.has-errors .enrollment-select-prefix,
+.ios .enrollment-select-number.has-errors input {
+    border-color: #ff5a5f !important;
+}
+
+.ios .has-errors .ch-validation-message,
+.ios .ch-validation-message{
+    color: #ff5a5f;
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 4px;
+    text-align: left;
+}
+
+.ios .enrollment-container.enrollment--start .enrollment-select-number {
+    margin: 0 16px;
+    height: auto;
+}
+
+.ios .enrollment-container.enrollment--start .enrollment-select-number .ch-validation-message{
+  margin-bottom: 32px;
+}
+
+
+
+
+.ios .enrollment-phones.is-selected-other .enrollment-phones-other{
+    border-bottom: none;
+}
+
+.ios .enrollment-select-number input,
+.ios .enrollment-select-number input:focus {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-radius: 0;
+    padding: 0; /*10px*/
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.ios .enrollment-select-number .enrollment-select-prefix{
+    display: none;
+}
+
+.ios .enrollment-methods {
+    margin: 0 10px; /*0 0 -10px;*/
+    /*
+    padding-top: 10px;
+    background-color: #efeff4
+    */
+}
+/*
+.ios .enrollment-methods li {
+border-radius: 5px
+}
+*/
+
+.ios .enrollment-methods li{
+    border-top: 1px solid #cccccc;
+    background-color: inherit;
+    height: 52px;
+    padding: 14px 16px;
+}
+
+.ios .enrollment-methods li span {
+    padding-left: 0;
+}
+/*
+.ios .enrollment-methods li .enrollment-method-loading span {
+    color: #3b87fa
+}
+*/
+.ios .enrollment-methods li:after{
+    top: 18px;
+    background: url('https://accountrecovery.mercadolibre.com.ar/images/enrollment/sm-select-method.png') no-repeat center top transparent;
+    color: #fff;
+    font-size: 40px;
+    content: '.';
+    right: 18px;
+}
+
+.ios .enrollment-methods li + li{
+    margin-top: 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.ios .enrollment-methods .enrollment-icon{
+    display: none;
+}
+
+.ios .enrollment-methods .enrollment-method-static,
+.ios .enrollment-methods li .enrollment-method-loading{
+    padding: 0;
+    line-height: 23px;
+    font-size: 16px;
+    color: #323232;
+    min-height: 23px;
+}
+
+
+.ios .enrollment-methods .enrollment-method-static span,
+.ios .enrollment-methods li .enrollment-method-loading span{
+    padding-left: 0;
+    color: #323232;
+}
+
+.ios .enrollment-loading .enrollment-methods li:not(.is-selected) span,
+.ios .enrollment-loading .enrollment-display a{
+    color: #e0e0e0;
+}
+
+
+
+.ios .enrollment--method-selector h1{
+    letter-spacing: 0.2px;
+    margin: 0 80px 11px;
+}
+.ios .enrollment--method-selector p{
+    letter-spacing: .23px;
+    margin: 0px 45px;
+}
+
+.ios .enrollment--method-selector .enrollment-display {
+    margin: 31px auto;
+    letter-spacing: -0.1px;
+}
+
+.ios .enrollment--method-selector .enrollment-display span{
+    display: block;
+    font-size: 18px;
+    letter-spacing: .35px;
+}
+
+.ios .enrollment--method-selector .enrollment-display span:after{
+    display: none;
+}
+
+.ios .enrollment--method-selector .enrollment-display a {
+    margin-top: 11px;
+}
+
+
+
+
+
+.ios .enrollment-code {
+    width: 75%;
+    margin: 50px auto 0;
+    border: none;
+    border-bottom: 1px solid #ccc /*ddd*/
+}
+.ios .enrollment-code:focus {
+    border: none;
+    border-bottom: 1px solid #2681ff;/*1px solid #33b5e5*/
+}
+.ios .ch-validation-message.mobile-validation {
+    margin: 0 auto 30px
+}
+.ios .enrollment-hint {
+    margin-top: 30px
+}
+.ios .ph-enrollment__features {
+    width: 80%;
+    margin: 20px auto
+}
+.ios .ph-enrollment__optin {
+    width: 80%;
+    margin: 15px auto 25px
+}
+.ios .ph-enrollment__optin input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    float: left
+}
+.ios .enrollment-reminder .enrollment-display {
+    margin-top: 28px /*30px*/
+}
+.ios .enrollment-reminder-icon {
+    margin: 0 auto 25px; /*0 auto 10px*/
+    padding-top: 10px
+}
+.ios .enrollment-reminder .enrollment-display span {
+    font-size: 26px;
+    line-height: 27px;
+    margin-bottom: 0px;
+    letter-spacing: -0.5px;
+}
+.ios .enrollment-reminder .enrollment-display a {
+    margin-top: 7px;
+    letter-spacing: -0.29px;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.ios .enrollment-container .enrollment-reminder--title{
+    letter-spacing: -.35px;
+    /*margin-bottom: 9px;*/
+    margin: 0 70px 9px;
+}
+.ios .enrollment-container .enrollment-reminder--title + p{
+    letter-spacing: -.3px;
+}
+
+
+.ios .enrollment-display span {
+    font-size: 20px
+}
+
+.ios .enrollment-container.enrollment-validation .enrollment-code{
+    margin: 22px auto 32px;
+    width: 90%;
+    font-size: 26px;
+    letter-spacing: 0;
+    font-weight: 300;
+}
+
+.ios .enrollment-container.enrollment-validation .enrollment-code.has-errors{
+    margin: 18px auto 0;
+}
+
+.ios .enrollment-validation .ch-validation-message.mobile-validation {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+
+
+.ios .enrollment-container .enrollment-validation--hint-disclaimer {
+    margin: 0 35px;
+    font-size: 14px;
+}
+
+.ios .enrollment-container .enrollment-validation--hint-other-request{
+    margin-top: 14px;
+}
+
+.ios .enrollment-container .enrollment-validation--hint-other-request a{
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0px;
+}
+
+.ios .enrollment-container .enrollment-validation--subtitle {
+    margin: 0 30px;
+    letter-spacing: 0px;
+}
+.ios .enrollment-container .enrollment-validation--subtitle strong,
+.ios .enrollment-container .enrollment-validation--hint-disclaimer strong{
+    font-weight: 300;
+}
+
+.ios .enrollment-container.enrollment-validation h1,
+.ios .enrollment-container.enrollment--maxattemptsexceeded h1{
+    margin: 0 80px 11px;
+}
+
+
+.ios .enrollment-validation .enrollment-actions .ch-btn + .enrollment-actions-link {
+    margin-top: 24px;
+}
+
+.ios .enrollment-container.enrollment--maxattemptsexceeded p {
+    letter-spacing: .05px;
+}

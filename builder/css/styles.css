@@ -1,0 +1,471 @@
+	#wrapper{
+		height: auto;
+		min-height: 100%;
+	}
+	p {
+		font-family: "Lato-Lig", Helvetica, Arial;
+		text-align: left;
+		font-size: 18px;
+		color: #7F7F7F;
+	}
+	h1,h2,h3{
+		font-family: "Lato", Helvetica, Arial;;
+		color: #2a3a86;
+		text-shadow: 2px 2px 4px #ddd;
+		margin: 30px 0;
+	}
+	h1{
+		font-family: "Lato-Lig", Helvetica, Arial;;
+		font-size: 67.35px;
+		font-weight: 500;
+	}
+	h2{
+		font-family: "Lato", Helvetica, Arial;;
+		font-size: 61.61px;
+		margin: 51px 0;
+	}
+		h2 span{
+			display: block;
+			font-size: 18px;
+			font-family: "Lato-Lig", Helvetica, Arial;;
+			font-weight: 500;
+			color: #7F7F7F;
+		}
+		h2 span a{
+			color: #0033D8 !important;
+			text-decoration: none !important;
+		}
+	h3{
+		/*font-family: "Lato-Bol", Helvetica, Arial;;*/
+		font-size: 36px;
+		text-align: left;
+		margin: 0 0 18px 0;
+		font-weight: 200;
+	}
+	strong{
+		font-family: "Lato-Bol", Helvetica, Arial;;
+		font-weight: 100;
+	}
+	.common{
+		margin: 0 auto;
+		max-width: 1200px;
+		padding: 0 12px;
+	}
+	.common-content{
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.wrapperCultura, .wrapperCrece, .wrapperEquipo  {
+		max-width: 860px;
+		margin: 0 auto;
+	}
+	.wrapperEquipo {
+		max-width: 930px;
+		margin: 0 auto;
+	}
+
+	.bg-gray{
+		background: #f9f9f9;
+		background: url(http://developers.mercadolibre.com/images/noise.gif) repeat;
+		border-top: 1px solid #ededed;
+		border-bottom: 1px solid #ededed;
+	}
+	.bg-white{
+		background: #fff;
+	}
+	.vacantes{
+		margin: 54px 0;
+		text-align: center;
+	}
+	.btn-vacantes{
+		font-size: 22px;
+		padding: 7px 11px;
+	}
+	.secondary-btn-hdr {
+		font-size: 1.5em;
+		color: #333;
+		margin: 0 0 0 20px;
+		line-height: 2.3em;
+		font-family: Lato-Lig;
+		text-shadow: 2px 2px 4px #666;
+		background: #EDEDED;
+		opacity: .7;
+		padding: 10px;
+		border-radius: 6px;
+	}
+	a.secondary-btn-hdr:hover{
+		color: #000;
+		background: #FFF;
+	}
+	a.secondary-btn-hdr:visited {
+		color: #333;
+	}
+	.secondary-btn-foot {
+		color: #333;
+	}
+	a.secondary-btn-foot:visited{
+		color: #333;
+	}
+
+	.mla span, .mlm span {
+	    background: url("../images/icons.png") no-repeat scroll 0 0 #DADADB;
+		border: 1px solid #F3F3F3;
+	    border-radius: 100% 100% 100% 100%;
+	    box-shadow: 0 8px 4px -4px #DDDDDD inset;
+	    float: left;
+	    /*margin: 25px 20px 0 0; quitar margen | Mie 4 Sep 13*/
+	}
+	.hidden{
+		visibility:  hidden;
+		display: none;
+	}
+	.last{
+		margin-bottom:0 !important;
+	}
+
+	/* Top Bar */
+	#top-bar {
+	    background-color:  #FFF059;
+	    height: 51px;
+	    left: 0;
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+	    z-index: 999;
+	    border-bottom: 1px solid #DCCF4E
+	}
+	#top-bar header{
+		overflow: hidden;
+	}
+	#top-bar header .logo {
+		float: left;
+		background:  url("http://static.mlstatic.com/org-img/commons/logo-mercadolibre-new.png") no-repeat scroll 0 0 transparent;
+
+		margin: 5px 0 0;
+		height: 43px;
+		width: 161px;
+	}
+	#top-bar header .logo a {
+		display: block;
+	    height: 43px;
+	    width: 161px;
+	    text-indent: -9999px;
+	}
+
+
+	#top-bar header .logoPT{
+		float: left;
+		background:  url("http://static.mlstatic.com/org-img/commons/logo-mercadolivre-new.png") no-repeat scroll 0 0 transparent;
+
+		margin: 5px 0 0;
+		height: 43px;
+		width: 161px;
+	}
+			 #top-bar header .logoPT a {
+				display: block;
+			    height: 43px;
+			    width: 161px;
+			    text-indent: -9999px;
+			}
+
+
+		#top-bar header nav{
+			float: right;
+			margin: 19px 0 0;
+			text-align: right;
+		}
+		#top-bar header nav ul{
+			list-style-type: none;
+		    overflow: hidden;
+		}
+			#top-bar header nav ul li{
+				float: left;
+				margin: 0 13px 0;
+			}
+			#top-bar header nav ul li.dc-main-navigation-item-selected{
+				border-bottom: 3px solid #888124;
+				color: #333 !important;
+				text-shadow: 0 0 2px #B7AE28;
+			}
+			#top-bar header nav ul li a{
+				color: #4C4B31;
+				text-decoration: none;
+				height: 30px;
+				display: block;
+				font-family: Helvetica, Arial,"Nimbus Sans L",sans-serif;
+				font-weight: lighter;
+			}
+			#top-bar header nav ul li a:hover{
+				color: #333;
+				text-shadow:0 0 2px #B7AE28;
+			}
+	/* End Top-Bar */
+
+	/* Main Content*/
+	.main-content {
+	    color: #333333;
+	    font-family: 'Lato', Helvetica, Arial;;
+	    font-weight: 300;
+	    max-width: 100%;
+	    padding: 52px 0 0;
+	    text-align: center;
+	    overflow: hidden;
+	}
+
+		/* Banner */
+		#banner{
+			background: url("../images/bg.jpg") no-repeat 40% top #fff;
+			height: 714px;
+		}
+			.content-banner{
+				padding: 50px 0 0;
+				text-align: left;
+			}
+			.content-banner h1{
+				display: inline-block;
+				margin: 0 0 45px 0;
+				text-shadow: 2px 2px 4px #FFFFFF;
+				font-size: 5em;
+				line-height: 1.1em;
+			}
+		/* End Banner */
+
+		/* Cultura */
+		#cultura ul li{
+			margin: 0 0 75px 0;
+		}
+				.mla span{
+				    height: 151px;
+				    width: 151px;
+				}
+					.excelencia span{
+						background-position: 0 0;
+					}
+					.innovacion span{
+						background-position: 0 -150px;
+					}
+					.clima span{
+						background-position: 0 -300px;
+					}
+					.cooperacion span{
+						background-position: 0 -450px;
+					}
+					.respeto span{
+						background-position: 0 -600px;
+					}
+		/* End Cultura*/
+
+		/* Equipo */
+		#equipos h2{
+			margin-bottom: 80px;
+		}
+			#equipos h2 span{
+				margin-top: 20px;
+			}
+		#equipos h3{
+			margin: 0 0 25px 0;
+		}
+		#equipos p{
+			margin: 0 0 20px 0;
+		}
+		#equipos article section{
+			margin-bottom: 90px;
+			text-align: left;
+		}
+			#equipos article section .ch-rightcolumn{
+				margin-left: 54px;
+			}
+			#equipos article section .ch-leftcolumn{
+				margin-right:inherit;
+			}
+			#equipos article section a{
+				color: #0033D8;
+				word-spacing: 3px;
+			}
+		/* End Equipo */
+
+		/* Oficina */
+		#oficinas{
+			background: #FFED4C;
+		}
+			#oficinas h3{
+				font-family: "Lato", Helvetica, Arial;;
+				text-align: center;
+				font-size: 36px;
+				font-weight: 100;
+				margin: 50px 0 !important;
+			}
+			#oficinas h2{
+				margin-bottom: 0px !important;
+			}
+			/*Carousel */
+			.ch-carousel-list li {
+				width: 402px;
+				height: 272px;
+			}
+			/*End Carousel*/
+			#oficinas .map{
+				width:100%;
+				height:500px;
+				margin: 0px auto;
+			}
+			#oficinas .ch-rightcolumn{
+				margin-left: 0px;
+			}
+		/* End Oficina */
+
+		/* Crece */
+		#crece ul li{
+			margin: 0 0 40px 0;
+		}
+			#crece article section {
+				text-align: left;
+			}
+				.mlm span{
+				    height: 105px;
+				    width: 105px;
+				}
+					.crece1 span{
+						background-position: 0 -750px;
+					}
+					.crece2 span{
+						background-position: 0 -854px;
+					}
+					.crece3 span{
+						background-position: 0 -958px;
+					}
+					.crece4 span{
+						background-position: 0 -1062px;
+					}
+		.crece p { text-align: center; padding: 0 100px;}
+		/* End Crece */
+
+	/* Cultura Videos */
+	div.video {margin: 0 auto; max-width: 100%; border-top:1px solid #ededed; background: #F1F1F1; overflow: hidden;}
+	ul.culturaVideos { width: auto; max-width:930px; margin: 0 auto; padding: 70px 0 30px 0; height: 200px; }
+	ul.culturaVideos li { float: left; width: 24%; height: auto; overflow: hidden; margin: 0 1% 50px 0!important;}
+	ul.culturaVideos.mlb li { float: left; width:100%; height: auto; overflow: hidden; margin: 0 1% 0px 0!important;}
+	ul.culturaVideos li a {height: 155px; float: left; }
+	ul.culturaVideos.mlb li a {height: 155px; float: none; }
+	ul.culturaVideos li a img { width: 290px;}
+	ul.culturaVideos li a span {
+		background: url("../images/play.png") no-repeat;
+		height: 90px;
+		width: 90px;
+		display: block;
+		position: relative;
+		top: -72%;
+		left: 33%;
+		text-indent: -2000px;
+		opacity: .5;  }
+		ul.culturaVideos.mlb li a span {top:-130px;left:45%;}
+		ul.culturaVideos li a span:hover { opacity: .9;}
+		b.epigrafe {
+			position: relative;
+			top: 0;
+			left: 0;
+			font-weight: lighter;
+		}
+
+		ul.culturaVideos.mlb b.epigrafe {
+			top:-80px; font-size: 20px
+		}
+
+	/* End Main-Content*/
+
+	/* Footer */
+	footer{
+		height: 45px;
+		padding: 10px;
+		background: none repeat scroll 0 0 #F8F8F8;
+		margin-top: 150px;
+	}
+	footer .logo-footer{
+		float: left;
+	}
+	footer .logo-footer span{
+		background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
+		background-size: 44px 32px;
+		width: 44px;
+		height: 32px;
+		display: inline-block;
+		margin: 0 8px 0 0;
+	}
+	footer .copyright{
+		float: left;
+		padding: 7px 0;
+	}
+	footer nav{
+		float: left;
+	}
+	footer nav ul{
+		margin: 7px 0;
+	}
+	footer nav ul li {
+	    border-right: 1px solid #CCCCCC;
+	    display: inline;
+	    padding: 0 10px;
+	}
+	footer nav ul li:last-child {
+		border: medium none;
+	}
+	footer nav ul li a{
+		color: #0033D8 !important;
+		text-decoration: none;
+	}
+	footer nav ul li a:hover{
+		text-decoration:  underline !important;
+	}
+
+/* Social */
+	.social {
+		float: right;
+		margin: 0;
+		background: transparent;
+	}
+	.share-fb {
+		background: url("../images/icons-social.png") no-repeat scroll 0px 0px;
+	}
+	.share-fb:hover {
+		background: url("../images/icons-social.png") no-repeat scroll -155px 0px;
+	}
+	.share-tw {
+		background: url("../images/icons-social.png") no-repeat scroll -38px 0px;
+	}
+	.share-tw:hover {
+		background: url("../images/icons-social.png") no-repeat scroll -193px 0px;
+	}
+	.share-icon {
+		width: 30px;
+		height: 30px;
+		display: block;
+	}
+	.popup {
+		margin: 10px 3px;
+		display: inline-block;
+	}
+
+
+	/* End Footer*/
+
+	@media screen and (max-width: 640px){
+		#cultura ul li {width:100%;text-align: center;float:none; display: block}
+		ul.culturaVideos {height:auto; display: block;}
+		ul.culturaVideos li a {margin:0 auto;float:none;}
+		ul.culturaVideos li a span {top:-130px;left:42%;}
+		b.epigrafe {font-size: 20px; top:-80px;}
+	}
+	
+	@media screen and (max-width: 639px) {
+		.secondary-btn-hdr {
+			font-size: 1.5em;
+			color: #333;
+			margin: 0 0 0 0;
+			padding: 10px;
+			line-height: 4em;
+			font-family: Lato-Lig;
+			text-shadow: 2px 2px 4px #333;
+			background-color: #aaa;
+			border-radius: 5px;
+			}
+	}
